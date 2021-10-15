@@ -4,12 +4,20 @@
 */
 
 //////////////////PROBLEM 1////////////////////
+
+
+
 /*
     Create a variable called 'gitDefinition'.
     It should be a string containing your best definition of what Git is.
 */
 
 //CODE HERE
+
+var gitDefinition
+
+gitDefinition = ("Git provides command line in a clean way, allowing you to access files and send them to GitHub")
+  console.log(gitDefinition)
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -18,6 +26,9 @@
 */
 
 //CODE HERE
+
+var gitHubDefinition = ("GitHub is a website coders use to store and share code, it uses the cloud to store your code.")
+    console.log(gitHubDefinition)
 
 //////////////////PROBLEMS 3 - 8////////////////////
 /*
@@ -35,6 +46,9 @@
 
 //CODE HERE
 
+var init = ("'Description: This is what initializes a local repository where you currently are in git', 'Code: git init'")
+    console.log(init)
+
 //////////////////PROBLEM 4////////////////////
 /*
     Create an object called 'clone' with 'description' and 'code' properties 
@@ -42,6 +56,9 @@
 */
 
 //CODE HERE
+
+var clone = ("'Description: takes a existing repository and copies it to your directory', 'Code: git clone'")
+    console.log(clone)
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -51,6 +68,9 @@
 
 //CODE HERE
 
+var status = ("'Description: tell me about this repository', 'Code: git status'")
+  console.log(status)
+
 //////////////////PROBLEM 6////////////////////
 /*
     Create an object called 'add' with 'description' and 'code' properties 
@@ -58,6 +78,9 @@
 */
 
 //CODE HERE
+
+var add = ("'Description: Adds a file to be tracked', 'Code: git add fileName'")
+    console.log(add)
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -67,6 +90,8 @@
 
 //CODE HERE
 
+var commit = ("'Description: Create a snapshot of the files im tracking', 'Code: git commit -m'")
+    console.log(commit)
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -75,3 +100,6 @@
 */
 
 //CODE HERE
+
+var push = ("'Description: Uploads local file or folder to remote repository', 'Code: git push'")
+    console.log(push)
