@@ -47,3 +47,10 @@ console.log(middleNums)
 */
 
 // CODE HERE
+
+var bigOrSmall
+
+var arr = ('20', '21', '44', '10', '13')
+
+var answers
+
