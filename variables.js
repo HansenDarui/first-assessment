@@ -3,15 +3,27 @@
 
 //CODE HERE 
 
+var myName = ("Jacob Olsen")
+  console.log(myName)
+
 //////////////////PROBLEM 2////////////////////
 /* Create a variable called 'faveNum' with a value that is your favorite number. */
 
 //CODE HERE
 
+var faveNum
+faveNum = 13
+  console.log(faveNum)
+
 //////////////////PROBLEM 3////////////////////
 /* Create a variable called 'lovesCode' and assign it a boolean value. */
 
 //CODE HERE
+
+var lovesCode = (true)
+if(lovesCode === true) {
+  console.log("He's in the right place")
+}
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -21,6 +33,12 @@
 */
 
 //CODE HERE
+var faveNum = 13
+if(faveNum === 13) {
+  console.log("lucky 13!")
+} else {
+  console.log("not lucky 13")
+}
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -28,3 +46,7 @@
 */
 
 //CODE HERE
+
+for(let i = 0; i <= 5; i++)
+  if(i <= 5)
+    console.log(faveNum)
